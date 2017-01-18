@@ -12,10 +12,16 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let gameStore = GameStore()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let gamesListVC = storyBoard.instantiateViewController(withIdentifier: "gameList") as! GameListController
+        let teamListVC = storyBoard.instantiateViewController(withIdentifier: "teamList") as! TeamListController
+        gamesListVC.dataSource = gameStore
+        teamListVC.dataSource = gameStore
+        
         return true
     }
 

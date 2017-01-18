@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		E82FE7121E2E9266006248A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FE7111E2E9266006248A0 /* AppDelegate.swift */; };
-		E82FE7141E2E9266006248A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FE7131E2E9266006248A0 /* ViewController.swift */; };
+		E82FE7141E2E9266006248A0 /* GameListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FE7131E2E9266006248A0 /* GameListController.swift */; };
 		E82FE7171E2E9266006248A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82FE7151E2E9266006248A0 /* Main.storyboard */; };
 		E82FE7191E2E9266006248A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82FE7181E2E9266006248A0 /* Assets.xcassets */; };
 		E82FE71C1E2E9266006248A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82FE71A1E2E9266006248A0 /* LaunchScreen.storyboard */; };
 		E82FE7271E2E9267006248A0 /* LeagueTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FE7261E2E9267006248A0 /* LeagueTrackerTests.swift */; };
 		E82FE7321E2E9267006248A0 /* LeagueTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FE7311E2E9267006248A0 /* LeagueTrackerUITests.swift */; };
+		E82FE7401E2E94C1006248A0 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FE73F1E2E94C1006248A0 /* Game.swift */; };
+		E82FE7421E2E94C8006248A0 /* GameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FE7411E2E94C8006248A0 /* GameStore.swift */; };
+		E82FE7461E2E952B006248A0 /* ScoringEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FE7451E2E952B006248A0 /* ScoringEvent.swift */; };
+		E82FE7481E2E960A006248A0 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FE7471E2E960A006248A0 /* Team.swift */; };
+		E82FE74A1E2EA7A4006248A0 /* TeamListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FE7491E2EA7A4006248A0 /* TeamListController.swift */; };
+		E82FE74C1E2EA7AD006248A0 /* GameDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FE74B1E2EA7AD006248A0 /* GameDetailController.swift */; };
+		E82FE74E1E2EA7BA006248A0 /* TeamDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FE74D1E2EA7BA006248A0 /* TeamDetailController.swift */; };
+		E82FE7501E2EE458006248A0 /* NewGameControllerBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FE74F1E2EE458006248A0 /* NewGameControllerBackup.swift */; };
+		E82FE7521E2F2D32006248A0 /* NewGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FE7511E2F2D32006248A0 /* NewGameController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,7 @@
 /* Begin PBXFileReference section */
 		E82FE70E1E2E9266006248A0 /* LeagueTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeagueTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E82FE7111E2E9266006248A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E82FE7131E2E9266006248A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E82FE7131E2E9266006248A0 /* GameListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListController.swift; sourceTree = "<group>"; };
 		E82FE7161E2E9266006248A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E82FE7181E2E9266006248A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E82FE71B1E2E9266006248A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,15 @@
 		E82FE72D1E2E9267006248A0 /* LeagueTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeagueTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E82FE7311E2E9267006248A0 /* LeagueTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueTrackerUITests.swift; sourceTree = "<group>"; };
 		E82FE7331E2E9267006248A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E82FE73F1E2E94C1006248A0 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		E82FE7411E2E94C8006248A0 /* GameStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStore.swift; sourceTree = "<group>"; };
+		E82FE7451E2E952B006248A0 /* ScoringEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoringEvent.swift; path = ../ScoringEvent.swift; sourceTree = "<group>"; };
+		E82FE7471E2E960A006248A0 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		E82FE7491E2EA7A4006248A0 /* TeamListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamListController.swift; sourceTree = "<group>"; };
+		E82FE74B1E2EA7AD006248A0 /* GameDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDetailController.swift; sourceTree = "<group>"; };
+		E82FE74D1E2EA7BA006248A0 /* TeamDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDetailController.swift; sourceTree = "<group>"; };
+		E82FE74F1E2EE458006248A0 /* NewGameControllerBackup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGameControllerBackup.swift; sourceTree = "<group>"; };
+		E82FE7511E2F2D32006248A0 /* NewGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGameController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +115,17 @@
 		E82FE7101E2E9266006248A0 /* LeagueTracker */ = {
 			isa = PBXGroup;
 			children = (
+				E82FE7451E2E952B006248A0 /* ScoringEvent.swift */,
 				E82FE7111E2E9266006248A0 /* AppDelegate.swift */,
-				E82FE7131E2E9266006248A0 /* ViewController.swift */,
+				E82FE7131E2E9266006248A0 /* GameListController.swift */,
+				E82FE7491E2EA7A4006248A0 /* TeamListController.swift */,
+				E82FE74B1E2EA7AD006248A0 /* GameDetailController.swift */,
+				E82FE74F1E2EE458006248A0 /* NewGameControllerBackup.swift */,
+				E82FE7511E2F2D32006248A0 /* NewGameController.swift */,
+				E82FE74D1E2EA7BA006248A0 /* TeamDetailController.swift */,
+				E82FE73F1E2E94C1006248A0 /* Game.swift */,
+				E82FE7471E2E960A006248A0 /* Team.swift */,
+				E82FE7411E2E94C8006248A0 /* GameStore.swift */,
 				E82FE7151E2E9266006248A0 /* Main.storyboard */,
 				E82FE7181E2E9266006248A0 /* Assets.xcassets */,
 				E82FE71A1E2E9266006248A0 /* LaunchScreen.storyboard */,
@@ -259,8 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E82FE7141E2E9266006248A0 /* ViewController.swift in Sources */,
+				E82FE7521E2F2D32006248A0 /* NewGameController.swift in Sources */,
+				E82FE7481E2E960A006248A0 /* Team.swift in Sources */,
+				E82FE7141E2E9266006248A0 /* GameListController.swift in Sources */,
+				E82FE7501E2EE458006248A0 /* NewGameControllerBackup.swift in Sources */,
+				E82FE7461E2E952B006248A0 /* ScoringEvent.swift in Sources */,
+				E82FE7421E2E94C8006248A0 /* GameStore.swift in Sources */,
+				E82FE7401E2E94C1006248A0 /* Game.swift in Sources */,
 				E82FE7121E2E9266006248A0 /* AppDelegate.swift in Sources */,
+				E82FE74E1E2EA7BA006248A0 /* TeamDetailController.swift in Sources */,
+				E82FE74C1E2EA7AD006248A0 /* GameDetailController.swift in Sources */,
+				E82FE74A1E2EA7A4006248A0 /* TeamListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +539,7 @@
 				E82FE7381E2E9267006248A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E82FE7391E2E9267006248A0 /* Build configuration list for PBXNativeTarget "LeagueTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +548,7 @@
 				E82FE73B1E2E9267006248A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E82FE73C1E2E9267006248A0 /* Build configuration list for PBXNativeTarget "LeagueTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +557,7 @@
 				E82FE73E1E2E9267006248A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
